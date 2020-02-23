@@ -1,0 +1,15 @@
+<!--components/w-product/w-product.wxml-->
+<view class="product" bindtap='itemClick'>
+  <image src="{{product.image || product.img || product.show.img}}"  mode='widthFix' lazy-load></image>
+  <view class="info">
+    <view class="title">{{product.title}}</view>
+    <view class="price">
+      <view class="new">￥{{product.price}}</view>
+      <view class="old">{{product.orgPrice}}</view>
+      <view class="cfav">
+        <image src="/assets/images/common/favor.png"></image>
+        {{product.cfav}}
+      </view>
+    </view>
+  </view>
+</view>

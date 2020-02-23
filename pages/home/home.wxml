@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<w-tabControl title="{{titles}}" 
+              bind:tabclick="tabclick" 
+              class="tabControl-top"
+              wx:if="{{showTabControl}}"
+              ></w-tabControl>
+<w-swiper list="{{banners}}"></w-swiper>
+<w-recommends recommends="{{recommends}}" bind:imageLoad="imgload"></w-recommends>
+<w-popular></w-popular>
+<w-tabControl title="{{titles}}" 
+              bind:tabclick="tabclick" 
+              class="tabControl-center"
+              ></w-tabControl>
+<w-productList list="{{goods[currentType].list}}"></w-productList>
+<w-backTop wx:if="{{showBackTop}}" bind:tap="topclick"></w-backTop>

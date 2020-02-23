@@ -1,0 +1,5 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <w-Category class="left" Category="{{Category}}" bindcurrentItem="currentItem"></w-Category>
+  <w-Subcategory class="right" Subcategory="{{Subcategory}}" recommendlist="{{recommendlist}}"></w-Subcategory>
+</view>

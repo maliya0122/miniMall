@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "w-swiper":"/components/w-swiper/w-swiper",
+    "w-tabControl": "/components/w-tabControl/w-tabControl",
+    "w-backTop":"/components/w-backTop/w-backTop",
+    "w-recommends":"./childCpn/recommends/recommends",
+    "w-popular":"./childCpn/popular/popular",
+    "w-productList":"/components/w-productList/w-productList"
+  },
+  "navigationBarTitleText": "蘑菇街"
+}

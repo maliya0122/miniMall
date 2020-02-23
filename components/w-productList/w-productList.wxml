@@ -1,0 +1,6 @@
+<!--pages/home/childCpn/productList/productList.wxml-->
+<view class="productList">
+  <block wx:for="{{list}}" wx:key="index">
+    <w-product product="{{item}}" class="product"></w-product>
+  </block>
+</view>

@@ -1,0 +1,17 @@
+/* pages/home/childCpn/recommends/recommends.wxss */
+.recommends-box{
+  display: flex;
+  text-align: center;
+  padding:30rpx 0;
+  border-bottom: 10rpx solid #ccc;
+}
+.recommends-item{
+  flex:1;
+}
+.recommends-item image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.recommends-item view{
+  color: #9c9c9c;
+}

@@ -1,0 +1,84 @@
+/* pages/profile/profile.wxss */
+.profile{
+  
+}
+.user{
+  color: #fff;
+  width: 100%;
+  background-color: #ff5777;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding:30rpx 20rpx;
+}
+.img{
+  flex:3;
+  width: 140rpx;
+  height: 140rpx;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.img image{
+  width: 140rpx;
+  height: 140rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 32rpx;
+}
+.title{
+  flex:8;
+  margin-left: 20rpx;
+}
+.title .login{
+  font-size: 35rpx;
+}
+.title .phone{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.phone image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.phone view{
+  font-size: 30rpx;
+}
+.btn{
+  flex:2;
+  font-size: 80rpx;
+}
+
+.money{
+  display: flex;
+  border-bottom: 26rpx solid #eee;
+}
+.item{
+  flex:1;
+  text-align: center;
+  padding:30rpx;
+  border-right: 1px solid #eee;
+}
+.text{
+  margin-top: 4rpx;
+  font-size: 30rpx;
+}
+.red{
+  font-size: 50rpx;
+  color: #ff5777;
+}
+.settings{
+  border-bottom: 26rpx solid #eee;
+} 
+.set{
+  display: flex;
+  flex-direction: row;
+  padding: 30rpx 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.set image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}

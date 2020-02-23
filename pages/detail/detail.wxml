@@ -1,0 +1,19 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+  <!-- 轮播图 -->
+  <w-swiper list="{{topImages}}" class="swiper"></w-swiper>
+  <!-- 商品信息页面 -->
+  <w-baseInfo baseInfo="{{baseInfo}}"></w-baseInfo>
+  <!-- 店铺信息页面 -->
+  <w-shopInfo shopInfo="{{shopInfo}}"></w-shopInfo>
+  <!-- 商品详情 -->
+  <w-detailInfo detailInfo="{{detailInfo}}"></w-detailInfo>
+  <!-- 参数信息 -->
+  <w-paramInfo paramInfo="{{paramInfo}}"></w-paramInfo>
+  <!-- 评论信息 -->
+  <w-commentInfo commentInfo="{{commentInfo}}"></w-commentInfo>
+  <!-- 推荐信息 -->
+  <w-productList list="{{productList}}"></w-productList>
+  <!-- 底部bar -->
+  <w-tabBar bindaddcart="addcart"></w-tabBar>
+</view>

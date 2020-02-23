@@ -1,0 +1,69 @@
+.shopInfo{
+  border-top: 14rpx solid #eee;
+  border-bottom: 14rpx solid #eee;
+  padding:20rpx 14rpx;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding:30rpx 0;
+}
+.title image{
+  width: 100rpx;
+  height: 100rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 50%;
+}
+.title view{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sell{
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20rpx 0;
+  border-right: 4rpx solid #ccc;
+  font-size: 26rpx;
+  align-items: center;
+}
+.score{
+  flex:1;
+  padding: 0 34rpx;
+}
+.sitems{
+  display: flex;
+  flex-direction: row;
+  font-size: 26rpx;
+}
+.item{
+  margin-top: 10rpx;
+}
+.name{
+  width: 130rpx;
+}
+.score{
+  flex:1;
+}
+.is{
+  flex:1;
+}
+.good {
+  color: #ff5777;
+}
+
+.less {
+  color: #5ea732;
+}
+.entrance{
+  text-align: center;
+  padding: 50rpx 0;
+}

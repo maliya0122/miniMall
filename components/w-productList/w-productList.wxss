@@ -1,0 +1,12 @@
+/* pages/home/childCpn/productList/productList.wxss */
+.productList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 8rpx;
+}
+.product{
+  position: relative;
+  width: 48%;
+  margin-top: 20rpx;
+}

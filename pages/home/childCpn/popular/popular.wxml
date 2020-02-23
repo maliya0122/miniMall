@@ -1,0 +1,4 @@
+<!--pages/home/childCpn/popular/popular.wxml-->
+<view class="pop">
+<image src="/assets/images/home/recommend_bg.jpg" mode="widthFix"></image>
+</view>

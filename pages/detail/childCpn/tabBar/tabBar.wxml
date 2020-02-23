@@ -1,0 +1,15 @@
+<!--pages/detail/childCpn/tabBar/tabBar.wxml-->
+<view class="tabBar">
+  <view class="icons">
+    <block wx:for="{{icons}}" wx:key="url">
+    <view class="iconsItem">
+      <image src="{{item.url}}"></image>
+      <view>{{item.name}}</view>
+    </view>
+    </block>
+  </view>
+  <view class="btns">
+    <view class="left" bindtap="addcart">加入购物车</view>
+    <view class="right">立即购买</view>
+  </view>
+</view>

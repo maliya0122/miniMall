@@ -1,0 +1,4 @@
+<!--pages/cart/childCpn/checkbtn/checkbtn.wxml-->
+<view class="checkbtn {{checked ? 'active':''}}">
+  <image src="/assets/images/cart/tick.svg"></image>
+</view>

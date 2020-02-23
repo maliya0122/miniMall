@@ -1,0 +1,11 @@
+<!--pages/cart/bottombar/bottombar.wxml-->
+<view class="bottombar">
+  <view class="icons" bindtap="bclick">
+    <checkbtn checked="{{allchecked}}"></checkbtn>
+    <view class="text">全选</view>
+  </view>
+  <view class="money">
+    <view>总计：￥{{totalprice}}</view>
+  </view>
+  <view class="calcu">去计算({{totalnum}})</view>
+</view>

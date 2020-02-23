@@ -1,0 +1,21 @@
+/* pages/cart/childCpn/checkbtn/checkbtn.wxss */
+.checkbtn{
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #fff;
+  border-radius: 50%;
+  border:1rpx solid #ccc;
+  position: relative;
+  top: 17rpx;
+  left: -5rpx;
+}
+.checkbtn image{
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 11rpx;
+  left: 9rpx;
+}
+.checkbtn.active{
+  background-color: #ff5777;
+}

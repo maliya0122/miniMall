@@ -1,0 +1,15 @@
+<!--pages/cart/product/product.wxml-->
+<view class="product">
+  <view class="left">
+    <checkbtn class="btn" checked="{{product.ischecked}}" data-iid="{{product.iid}}" bindtap="click"></checkbtn>
+    <image class="img" src="{{product.img}}"></image>
+  </view>
+  <view class="right">
+    <view class="title">{{product.title}}</view>
+    <view class="desc">{{product.desc}}</view>
+    <view class="info">
+      <view class="price">￥{{product.price}}</view>
+      <view class="count">×{{product.num}}</view>
+    </view>
+  </view>
+</view>

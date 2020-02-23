@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "product":"./childCpn/product/product",
+    "bottombar":"./childCpn/bottombar/bottombar"
+  },
+  "navigationBarTitleText": "购物车"
+}

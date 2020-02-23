@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "w-swiper":"/components/w-swiper/w-swiper",
+    "w-tabBar":"./childCpn/tabBar/tabBar",
+    "w-baseInfo":"./childCpn/baseInfo/baseInfo",
+    "w-shopInfo":"./childCpn/shopInfo/shopInfo",
+    "w-detailInfo":"./childCpn/detailInfo/detailInfo",
+    "w-paramInfo":"./childCpn/paramInfo/paramInfo",
+    "w-commentInfo":"./childCpn/commentInfo/commentInfo",
+    "w-productList":"/components/w-productList/w-productList"
+  },
+  "navigationBarTitleText": "商品详情"
+}

@@ -1,0 +1,50 @@
+/* components/w-product/w-product.wxss */
+.product{
+  text-align: center;
+  color: #333;
+  padding-bottom: 85rpx;
+}
+.product image{
+  width: 100%;
+  border-radius: 10rpx;
+}
+.info{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 6rpx;
+}
+.title{
+  font-size: 28rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.price{
+  margin-top: 10rpx;
+  font-size: 25rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.price view{
+  
+}
+.new{
+  color:#ff5777;
+}
+.old{
+  color: rgb(90, 76, 76);
+  text-decoration: line-through;
+}
+.cfav{
+  margin-left: 25rpx;
+  position: relative;
+}
+.cfav image{
+  content: '';
+  position: absolute;
+  left: -14px;
+  top: 0px;
+  width: 14px;
+  height: 14px;
+}
